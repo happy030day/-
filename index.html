@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>세월호 스토리 웹사이트</title>
+  <style>
+    /* 배경색 */
+    body {
+      background-color: #ffd800;
+    }
+    /* 이미지 틀 */
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh;
+      border: 2px solid #ffffff;
+      box-sizing: border-box;
+      visibility: visible;
+      width: 90vw;
+      max-height: 90vh;
+      margin: auto;
+    }
+    /* 이미지 */
+    .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+     /* 제목 */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #000000;
+    background-color: white;
+    padding: 20px 0px; /* 내부 여백 */
+  }
+   /* 오디오 */
+   .audio-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: -100px;
+      margin-bottom: 40PX;
+      margin-right: 50px;
+    }
+    .audio-container audio {
+      width: 300px;
+    }
+  /* 소제목 */
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #000000;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.0rem;
+    color: #000000;
+  }
+  </style>
+</head>
+<body>
+  <h1>세월호, 기억하십니까?</h1>
+  <div class="audio-container">
+    <audio controls>
+      <source src="녹음 (31).mp3" type="audio/mp3">
+    </audio>
+  </div>
+  <div class="image-container">
+    <img src="배.png" alt="이미지 설명">
+  </div>
+  <h2>그때의 한 학생이 되어 몰입해 볼까요?</h2>
+  <h3>made by, 학생회</h3>
+  <script>
+   document.addEventListener('click', function() {
+    window.location.href = 'http://127.0.0.1:5500/index6.html';
+  });
+  </script>
+</body>
+</html>
+<a href="http://127.0.0.1:5500/index6.html"></a>
